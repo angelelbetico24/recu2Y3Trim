@@ -13,9 +13,11 @@ public class Sobreescritura {
         Gato g = new Gato();
         Pajaro p1 = new Pajaro();
         ArrayList<Animal> animales = new ArrayList<Animal>();
+        //Añadimos a los objetos de los animales al arraylist animales
         animales.add(p);
         animales.add(g);
         animales.add(p1);
+        //Recorremos el arraylist con un for-each para invocarlo
         for(Animal animal : animales){
             animal.hacerSonido();
         }
