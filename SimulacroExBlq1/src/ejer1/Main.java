@@ -1,3 +1,5 @@
+package ejer1;
+
 /**
  * @author angelelbetico24
  */
